@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Juego - Tienda de Juegos de Mesa en Chile</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Juego - La mejor tienda de juegos de mesa en Chile. Encuentra los mejores juegos para compartir con familia y amigos.">
+	<meta property="og:title" content="Juego - Tienda de Juegos de Mesa en Chile">
+	<meta property="og:description" content="Los mejores juegos de mesa para momentos inolvidables. Entrega rápida y garantía de diversión.">
+	<meta property="og:image" content="img/logo.webp">
+	<meta property="og:url" content="https://games-juegaplay.com">
+	<meta name="twitter:card" content="summary_large_image">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css?_v=20250212140123" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20250212140123">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo logo">
+					<span class="logo-text">
+						<span class="logo-letter">J</span>
+						<span class="logo-letter">u</span>
+						<span class="logo-letter">e</span>
+						<span class="logo-letter">g</span>
+						<span class="logo-letter">o</span>
+						<span class="logo-dot">.</span>
+					</span>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="index.html#hero" class="menu__link">Inicio</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#about" class="menu__link">Sobre Nosotros</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#products" class="menu__link">Juegos</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#newsletter" class="menu__link">Newsletter</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<a href="cart.html" class="header__cart" aria-label="Ver carrito">
+						<i class="fas fa-shopping-cart"></i>
+						<span class="header__cart-counter" data-cart-counter>0</span>
+					</a>
+					<button type="button" class="menu__icon icon-menu" aria-label="Menú">
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<!-- Hero section -->
+			<section class="hero" id="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<div class="hero__badge">
+							<i class="fas fa-fire"></i>
+							<span>Novedades</span>
+						</div>
+
+						<h1 class="hero__title">
+							Descubre Nuevos
+							<span class="hero__title-accent">Mundos</span>
+							<br>
+							de Diversión
+						</h1>
+
+						<p class="hero__description">
+							Explora nuestra colección de juegos de mesa premium.
+							Desde clásicos atemporales hasta las últimas novedades.
+						</p>
+
+						<div class="hero__stats">
+							<div class="hero__stat">
+								<div class="hero__stat-value">24h</div>
+								<div class="hero__stat-label">Entrega</div>
+							</div>
+							<div class="hero__stat">
+								<div class="hero__stat-value">50+</div>
+								<div class="hero__stat-label">Juegos</div>
+							</div>
+							<div class="hero__stat">
+								<div class="hero__stat-value">100%</div>
+								<div class="hero__stat-label">Original</div>
+							</div>
+						</div>
+
+						<div class="hero__actions">
+							<a href="#products" class="button button--primary">
+								<span>Ver Catálogo</span>
+								<i class="fas fa-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="hero__media">
+						<div class="hero__media-main">
+							<img src="img/hero.webp" alt="Colección de juegos premium">
+							<div class="hero__media-overlay"></div>
+						</div>
+						<div class="hero__features">
+							<div class="hero__feature">
+								<i class="fas fa-truck-fast"></i>
+								<div class="hero__feature-content">
+									<h3>Envío Express</h3>
+									<p>Entrega en 24 horas</p>
+								</div>
+							</div>
+							<div class="hero__feature">
+								<i class="fas fa.webpt"></i>
+								<div class="hero__feature-content">
+									<h3>Regalo Especial</h3>
+									<p>En cada pedido</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- About section -->
+			<section class="about" id="about">
+				<div class="about__container">
+					<div class="about__grid">
+						<div class="about__content">
+							<div class="about__badge">
+								<div class="about__badge-icon">
+									<i class="fas fa-star"></i>
+								</div>
+								<div class="about__badge-text">
+									<span>Juegos</span>
+									<span>Premium</span>
+								</div>
+							</div>
+
+							<h2 class="about__title">
+								Donde los Juegos
+								<div class="about__title-wrapper">
+									<span class="about__title-accent">Cobran Vida</span>
+									<div class="about__title-icons">
+										<i class="fas fa-dice-d20"></i>
+										<i class="fas fa-chess-knight"></i>
+									</div>
+								</div>
+							</h2>
+
+							<div class="about__text">
+								<p>Bienvenido a un espacio donde cada juego cuenta una historia. Nuestra pasión es crear
+									momentos inolvidables alrededor de una mesa, con amigos y familia.</p>
+								<div class="about__quote">
+									<i class="fas fa-quote-left"></i>
+									<p>Los mejores recuerdos se crean jugando juntos</p>
+								</div>
+							</div>
+
+							<div class="about__highlights">
+								<div class="about__highlight">
+									<div class="about__highlight-icon">
+										<i class="fas fa-users"></i>
+									</div>
+									<div class="about__highlight-content">
+										<h3>Comunidad Activa</h3>
+										<p>+1000 jugadores conectados</p>
+									</div>
+								</div>
+								<div class="about__highlight">
+									<div class="about__highlight-icon">
+										<i class="fas fa-calendar"></i>
+									</div>
+									<div class="about__highlight-content">
+										<h3>Eventos Semanales</h3>
+										<p>Torneos y encuentros</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="about__showcase">
+							<div class="about__cards">
+								<div class="about__card about__card--featured">
+									<div class="about__card-content">
+										<div class="about__card-icon">
+											<i class="fas fa-trophy"></i>
+										</div>
+										<h3>Club de Jugadores</h3>
+										<ul class="about__card-list">
+											<li>
+												<i class="fas fa-gem"></i>
+												<span>Recompensas exclusivas</span>
+											</li>
+											<li>
+												<i class="fas fa.webpt"></i>
+												<span>Regalo de cumpleaños</span>
+											</li>
+											<li>
+												<i class="fas fa-percent"></i>
+												<span>Descuentos VIP</span>
+											</li>
+										</ul>
+										<a href="#newsletter" class="button button--primary">
+											<span>Únete Ahora</span>
+											<i class="fas fa-arrow-right"></i>
+										</a>
+									</div>
+									<div class="about__card-decoration">
+										<div class="about__card-pattern"></div>
+									</div>
+								</div>
+
+								<div class="about__benefits">
+									<div class="about__benefit">
+										<div class="about__benefit-header">
+											<i class="fas fa-dice"></i>
+											<h3>Prueba Antes</h3>
+										</div>
+										<p>Sesiones de demostración gratuitas</p>
+									</div>
+
+									<div class="about__benefit">
+										<div class="about__benefit-header">
+											<i class="fas fa-comments"></i>
+											<h3>Asesoría</h3>
+										</div>
+										<p>Expertos te ayudan a elegir</p>
+									</div>
+
+									<div class="about__benefit">
+										<div class="about__benefit-header">
+											<i class="fas fa-box"></i>
+											<h3>Sorpresas</h3>
+										</div>
+										<p>Regalos en cada compra</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="about__achievements">
+								<div class="about__achievement">
+									<div class="about__achievement-icon">
+										<i class="fas fa-users"></i>
+									</div>
+									<div class="about__achievement-content">
+										<div class="about__achievement-value">10K+</div>
+										<div class="about__achievement-label">Clientes Felices</div>
+									</div>
+								</div>
+
+								<div class="about__achievement">
+									<div class="about__achievement-icon">
+										<i class="fas fa-dice"></i>
+									</div>
+									<div class="about__achievement-content">
+										<div class="about__achievement-value">5000+</div>
+										<div class="about__achievement-label">Juegos Únicos</div>
+									</div>
+								</div>
+
+								<div class="about__achievement">
+									<div class="about__achievement-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="about__achievement-content">
+										<div class="about__achievement-value">4.9</div>
+										<div class="about__achievement-label">Calificación</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Products section -->
+			<section class="products" id="products">
+				<div class="products__container">
+					<h2 class="products__title">Nuestros Juegos</h2>
+					<div class="products__grid" data-products-grid></div>
+				</div>
+			</section>
+
+			<!-- Newsletter section -->
+			<section class="newsletter" id="newsletter">
+				<div class="newsletter__container">
+					<div class="newsletter__content">
+						<div class="newsletter__info">
+							<div class="newsletter__badge">
+								<div class="newsletter__badge-icon">
+									<i class="fas fa-magic"></i>
+								</div>
+								<span>Pedidos Mágicos</span>
+							</div>
+
+							<h2 class="newsletter__title">
+								Encuentra tu
+								<div class="newsletter__title-wrapper">
+									<span class="newsletter__title-accent">Próxima Aventura</span>
+									<div class="newsletter__title-decoration">
+										<i class="fas fa-dice-d20"></i>
+									</div>
+								</div>
+							</h2>
+
+							<p class="newsletter__description">
+								¿Hay un juego especial que no puedes encontrar? ¡Déjanos ser tu guía mágico! Descubre nuevos mundos y mantente al día con nuestras últimas adquisiciones.
+							</p>
+
+							<div class="newsletter__features">
+								<div class="newsletter__feature">
+									<div class="newsletter__feature-icon">
+										<i class="fas fa-search"></i>
+									</div>
+									<div class="newsletter__feature-content">
+										<h3>Búsqueda Mágica</h3>
+										<p>Rastreamos tu juego ideal en cualquier rincón del mundo</p>
+									</div>
+								</div>
+
+								<div class="newsletter__feature">
+									<div class="newsletter__feature-icon">
+										<i class="fas fa-globe"></i>
+									</div>
+									<div class="newsletter__feature-content">
+										<h3>Importación Legendaria</h3>
+										<p>Conexiones con las mejores tiendas internacionales</p>
+									</div>
+								</div>
+
+								<div class="newsletter__feature">
+									<div class="newsletter__feature-icon">
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="newsletter__feature-content">
+										<h3>Noticias Exclusivas</h3>
+										<p>Sé el primero en descubrir nuevos tesoros</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<form class="newsletter__form" id="newsletterForm">
+							<div class="newsletter__form-header">
+								<div class="newsletter__form-icon">
+									<i class="fas fa-scroll"></i>
+								</div>
+								<h3>Tu Búsqueda Comienza Aquí</h3>
+								<p>Comparte los detalles de tu juego soñado</p>
+							</div>
+
+							<div class="newsletter__form-body">
+								<div class="newsletter__form-group">
+									<label for="newsletter-name">Tu Nombre</label>
+									<div class="newsletter__form-input">
+										<i class="fas fa-user"></i>
+										<input type="text" id="newsletter-name" placeholder="Ej: Juan Pérez" required>
+									</div>
+									<span class="newsletter__form-error" data-error="name"></span>
+								</div>
+
+								<div class="newsletter__form-group">
+									<label for="newsletter-email">Tu Email</label>
+									<div class="newsletter__form-input">
+										<i class="fas fa-envelope"></i>
+										<input type="email" id="newsletter-email" placeholder="nombre@email.com" required>
+									</div>
+									<span class="newsletter__form-error" data-error="email"></span>
+								</div>
+
+								<div class="newsletter__form-group">
+									<label for="newsletter-preferences">Tu Juego Deseado</label>
+									<div class="newsletter__form-input">
+										<i class="fas fa-dice"></i>
+										<input type="text" id="newsletter-preferences" placeholder="Nombre del juego o descripción" required>
+									</div>
+								</div>
+
+								<div class="newsletter__form-terms">
+									<label class="newsletter__form-checkbox">
+										<input type="checkbox" id="newsletter-consent" required>
+										<span class="newsletter__form-checkmark"></span>
+										<span class="newsletter__form-text">
+											Acepto recibir noticias mágicas y actualizaciones sobre mi búsqueda
+											<a href="privacy.html" class="newsletter__form-link">Política de privacidad</a>
+										</span>
+									</label>
+									<span class="newsletter__form-error" data-error="consent"></span>
+								</div>
+
+								<button type="submit" class="button button--accent">
+									<span>Iniciar Búsqueda</span>
+									<i class="fas fa-arrow-right"></i>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- Reviews section -->
+			<section class="reviews" id="reviews">
+				<div class="reviews__container">
+					<div class="reviews__header">
+						<div class="reviews__badge">
+							<div class="reviews__badge-icon">
+								<i class="fas fa-award"></i>
+								<div class="reviews__badge-glow"></div>
+							</div>
+							<div class="reviews__badge-rating">
+								<div class="reviews__badge-stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>4.8 de 5.0 - Calificación Elite</span>
+							</div>
+						</div>
+						<h2 class="reviews__title">
+							La Opinión de Nuestros<br>
+							<span class="reviews__title-accent">Jugadores Elite</span>
+						</h2>
+						<p class="reviews__description">
+							Descubre por qué los jugadores más exigentes confían en nuestra selección premium de juegos
+							de mesa y servicio personalizado.
+						</p>
+					</div>
+					<div class="reviews__grid">
+						<div class="reviews__cards">
+							<div class="review-card review-card--featured" data-review-id="review1">
+								<div class="review-card__badge">
+									<i class="fas fa-certificate"></i>
+									<span>Review Destacada</span>
+								</div>
+								<div class="review-card__header">
+									<div class="review-card__avatar">
+										<img src="img/avatar-1.webp" alt="Isabella Vega">
+									</div>
+									<div class="review-card__info">
+										<h3 class="review-card__name">Isabella Vega</h3>
+										<div class="review-card__meta">
+											<span class="review-card__verified">
+												<i class="fas fa-check-circle"></i>
+												Compra verificada
+											</span>
+											<span class="review-card__date">Febrero 2024</span>
+										</div>
+									</div>
+								</div>
+								<div class="review-card__rating">
+									<div class="review-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<span class="review-card__product">Gloomhaven: Edición Coleccionista</span>
+								</div>
+								<p class="review-card__content">
+									"Una experiencia de compra excepcional. La edición coleccionista llegó en perfecto
+									estado, con detalles exclusivos que superaron mis expectativas. El servicio
+									personalizado y la rapidez en la entrega son incomparables."
+								</p>
+								<div class="review-card__tags">
+									<span class="review-card__tag">Edición Limitada</span>
+									<span class="review-card__tag">Servicio Premium</span>
+									<span class="review-card__tag">Entrega Rápida</span>
+								</div>
+								<div class="review-card__footer">
+									<button class="review-card__helpful">
+										<i class="fas fa-thumbs-up"></i>
+										<span>Útil (45)</span>
+									</button>
+								</div>
+							</div>
+
+							<div class="review-card" data-review-id="review2">
+								<div class="review-card__header">
+									<div class="review-card__avatar">
+										<img src="img/avatar-2.webp" alt="Alejandro Ruiz">
+									</div>
+									<div class="review-card__info">
+										<h3 class="review-card__name">Alejandro Ruiz</h3>
+										<div class="review-card__meta">
+											<span class="review-card__verified">
+												<i class="fas fa-check-circle"></i>
+												Compra verificada
+											</span>
+											<span class="review-card__date">Enero 2024</span>
+										</div>
+									</div>
+								</div>
+								<div class="review-card__rating">
+									<div class="review-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<span class="review-card__product">Terraforming Mars: Big Box</span>
+								</div>
+								<p class="review-card__content">
+									"El equipo de atención al cliente es extraordinario. Me ayudaron a elegir la mejor
+									expansión para mi colección y me mantuvieron informado durante todo el proceso de
+									envío. ¡Una tienda que realmente entiende a los jugadores!"
+								</p>
+								<div class="review-card__tags">
+									<span class="review-card__tag">Atención Personalizada</span>
+									<span class="review-card__tag">Expansiones</span>
+								</div>
+								<div class="review-card__footer">
+									<button class="review-card__helpful">
+										<i class="fas fa-thumbs-up"></i>
+										<span>Útil (32)</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__animated-bg">
+				<div class="footer__gradient footer__gradient--1"></div>
+				<div class="footer__gradient footer__gradient--2"></div>
+				<div class="footer__gradient footer__gradient--3"></div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__column">
+						<a href="index.html" class="footer__logo logo">
+							<span class="logo-text">
+								<span class="logo-letter">J</span>
+								<span class="logo-letter">u</span>
+								<span class="logo-letter">e</span>
+								<span class="logo-letter">g</span>
+								<span class="logo-letter">o</span>
+								<span class="logo-dot">.</span>
+							</span>
+						</a>
+						<p class="footer__description">
+							Los mejores juegos de mesa para momentos inolvidables con familia y amigos.
+							Entrega rápida y garantía de diversión en todo Chile.
+						</p>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Navegación</h3>
+						<ul class="footer__list">
+							<li><a href="index.html#hero" class="footer__link">Inicio</a></li>
+							<li><a href="index.html#about" class="footer__link">Sobre Nosotros</a></li>
+							<li><a href="index.html#products" class="footer__link">Juegos</a></li>
+							<li><a href="index.html#newsletter" class="footer__link">Newsletter</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Legal</h3>
+						<ul class="footer__list">
+							<li><a href="privacy.html" class="footer__link">Política de Privacidad</a></li>
+							<li><a href="terms.html" class="footer__link">Términos y Condiciones</a></li>
+							<li><a href="cookie.html" class="footer__link">Política de Cookies</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Contacto</h3>
+						<ul class="footer__contacts">
+							<li class="footer__contact">
+								<i class="fas fa-map-marker-alt"></i>
+								<span>Santiago, Chile</span>
+							</li>
+							<li class="footer__contact">
+								<i class="fas fa-envelope"></i>
+								<a href="mailto:info@games-juegaplay.com">info@games-juegaplay.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<p class="footer__copyright"> 2025 Juego. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Cookie Consent -->
+		<div class="cookie-consent" id="cookieConsent">
+			<div class="cookie-consent__content">
+				<p class="cookie-consent__text">
+					Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Si continúa navegando
+					usted acepta el uso de cookies.
+				</p>
+				<div class="cookie-consent__buttons">
+					<button class="button button--primary" id="acceptCookies">Aceptar</button>
+					<button class="button button--outline" id="declineCookies">Rechazar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250212140123"></script>
+</body>
+
+</html>
